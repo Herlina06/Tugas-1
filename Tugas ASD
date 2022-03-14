@@ -1,0 +1,104 @@
+- Tipe Data
+#tipe data string
+nama = "Herlina"
+print (nama)
+#tipe data integer
+umur = 19
+print (umur)
+#tipe data fload
+tinggi = 1.65
+print (tinggi)
+#tipe data boolean
+menikah = False
+print (menikah)
+
+- Operator Aritmatika
+nilai1 = 5
+nilai2 = 3
+#penjumlahan
+print (nilai1 + nilai2)
+#pengurangan
+print (nilai1 - nilai2)
+#perkalian
+print (nilai1 * nilai2)
+#pembagian
+print (nilai1 / nilai2)
+#sisa bagi
+print (nilai1 % nilai2)
+#pangkat 
+print (nilai1 ** nilai2)
+#pembagian bulat
+print (nilai1 // nilai2)
+
+- Operator Penugasan
+#sama dengan
+nilai = 4
+print (nilai)
+#tambah sama dengan
+nilai += 6
+print (nilai)
+#kurang sama dengan
+nilai -= 7
+print (nilai)
+#kali sama dengan
+nilai *= 3
+print (nilai)
+#bagi sama dengan
+nilai /= 9
+print (nilai)
+#sisa bagi sama dengan
+nilai %= 8
+print (nilai)
+#pangkat sama dengan
+nilai **= 4
+print (nilai)
+#pembagian bulat sama dengan
+nilai //= 3
+print (nilai)
+
+- Operator Perbandingan
+#sama dengan 
+print (4 == 8)
+#tidak sama dengan
+print (4 != 8)
+#lebih besar dari
+print (4 > 8)
+#lebih kecil dari
+print (4 < 8)
+#lebih besar sama dengan
+print (4 >= 8)
+#lebih kecil sama dengan
+print (4 <= 8)
+
+-Operator Logika
+#and
+x = True
+y = False
+print (x and y)
+#or 
+x = True
+y = False
+print (x or y)
+#not
+x = True
+print (not x)
+
+#percabangan
+#if
+nilai = 80
+if (nilai >= 75):
+  print("Nilai A")
+#else
+nilai = 60
+if (nilai >= 65):
+  print("Lulus")
+else :
+  print("Tidak Lulus")
+#elif
+umur = 25
+if (umur > 18 and umur < 30):
+  print("sudah beranjak dewasa")
+elif(umur >= 30 and umur < 45):
+  print("masa masa emas")
+elif(umur >= 45):
+  print("masa paruh baya")
