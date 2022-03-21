@@ -1,0 +1,75 @@
+- #tipe data list
+nama = ["nunu","fitri","jumra","inum"]
+for nama in nama:
+	print(nama)
+
+#mengupdate
+nama = ["nunu","fitri","jumra","inum"]
+nama[1]="sidratul"
+print(nama)
+
+#menghapus
+nama = ["nunu","fitri","jumra","inum"]
+del nama [0]
+print(nama)
+
+#menambahkan
+nama = ["nunu","fitri","jumra","inum"]
+nama.append("julianti")
+print(nama
+
+- #tipe data set
+se = {"nunu","fitri","jumra","inum"}
+for se in se:
+	print(se)
+	
+#mengupdate
+se = {"nunu","fitri","jumra","inum"}
+#se[1]"sidratul"
+print(se)
+
+#menghapus
+se = {"nunu","fitri","jumra","inum"}
+se.remove("fitri")
+print (se)
+
+#menambahkan 
+se = {"nunu","fitri","jumra","inum"}
+se.add("herlina")
+print (se)
+
+- #type data touple
+tu = (2,3,4,5,6)
+for tu in tu:
+    print(tu)
+#mengubdate
+
+
+
+#menambahkan 
+tu=(2,3,4,5,6)
+tu.add(32)
+print(tu)
+#menghapus
+
+
+- #tipe data dictionary
+dic= {"nunu":20,"fitri":30,"jumra":35}
+itms=dic.items()
+for i,j in itms:
+	print(i,":",j)
+	
+#mengupdate
+dic= {"nunu":20,"fitri":30,"jumra":35}
+dic ["inum"]= 90
+print (dic)
+
+#menghapus
+dic= {"nunu":20,"fitri":30,"jumra":35}
+del dic ["nunu"]
+print(dic)
+
+#menambahkan
+dic= {"nunu":20,"fitri":30,"jumra":35}
+dic["herlina"]=60
+print(dic)
